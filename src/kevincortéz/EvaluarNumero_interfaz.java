@@ -43,11 +43,17 @@ public class EvaluarNumero_interfaz extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(0, 255, 204));
 
+        jLabel1.setBackground(new java.awt.Color(255, 255, 51));
         jLabel1.setText("Primer Numero");
+        jLabel1.setOpaque(true);
 
+        jLabel2.setBackground(new java.awt.Color(204, 255, 0));
         jLabel2.setText("Segundo Numero");
+        jLabel2.setOpaque(true);
 
+        jLabel3.setBackground(new java.awt.Color(255, 255, 0));
         jLabel3.setText("Tercer Numero");
+        jLabel3.setOpaque(true);
 
         jButton1.setText("Calcular");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -56,7 +62,9 @@ public class EvaluarNumero_interfaz extends javax.swing.JFrame {
             }
         });
 
+        jLabel4.setBackground(new java.awt.Color(255, 255, 0));
         jLabel4.setText("Numero mayor");
+        jLabel4.setOpaque(true);
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);

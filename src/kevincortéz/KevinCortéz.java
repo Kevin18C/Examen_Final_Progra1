@@ -17,6 +17,7 @@ public class KevinCortéz {
     public static void main(String[] args) {
         
         Scanner KC = new Scanner(System.in);
+        
         EvaluarNumeros KCM = new EvaluarNumeros();
         
         System.out.println("Ingrese el primer numero");
@@ -28,7 +29,7 @@ public class KevinCortéz {
        System.out.println("Ingrese el tercer numero");
        double tercernumero = KC.nextDouble();
        
-       System.out.println("El Numero mayor es:"+KCM.mayor(primernumero, segundonumero, tercernumero) );
+       System.out.println("El Numero mayor es:"+ KCM.mayor(primernumero, segundonumero, tercernumero) );
     }
     
 }
